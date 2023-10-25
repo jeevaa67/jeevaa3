@@ -1,0 +1,6 @@
+begin;
+Insert into student values (06,'dhoni',10);
+Rollback;
+Begin;
+Insert into student values (06,'dhoni',10);
+Commit;
