@@ -1,0 +1,10 @@
+show databases;
+-use mysql;
+-Create database;
+-insert into (table name) value;
+- select * from student;
+-update student set name=sathya where ---;
+-alter table student and phonenumber int(11)
+-delete from student where rollnumber=
+- select *from (table name) order by_____;
+-select count(name),city from (table name) group by----;
