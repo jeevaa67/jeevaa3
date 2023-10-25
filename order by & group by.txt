@@ -1,0 +1,7 @@
+Select name,room_no from hostel order by name;
+Select name,room_no from hostel order by room_no;
+
+
+
+Select count(name),city from hostel group by city;
+Select count(name),room_no from hostel group by room_no;
