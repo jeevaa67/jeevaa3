@@ -1,0 +1,3 @@
+Delete from ticket_booking where ID =03;
+Truncate table ticket_booking;
+Drop table ticket_booking;
