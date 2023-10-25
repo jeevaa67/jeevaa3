@@ -1,0 +1,13 @@
+Select user from MySQL.user
+Create user 'sathya'@'localhost'identified by 'sathya';
+
+
+Cd/
+MySQL server 8.0\bin>MySQL -u root -p
+Show databases;
+MySQL server 8.0\bin>MySQL -u sathya -p
+Show databases;
+MySQL server 8.0\bin>MySQL -u root -p
+Grant all privileges on . To 'sathya'@'localhost';
+MySQL server 8.0\bin>MySQL -u root -p
+Revoke all privileges on*.* From 'sathya'@'localhost';
