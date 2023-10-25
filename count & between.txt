@@ -1,0 +1,5 @@
+Create table customer (name varchar(255),food varchar(255),price into(10);
+
+
+Select count(Price) from customer;
+Select Price,food from customer where price between 50 and 500;
