@@ -1,0 +1,2 @@
+select * from couch where spec like "f%g";
+Select * from couch limit 2;
