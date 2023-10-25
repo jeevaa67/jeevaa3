@@ -1,0 +1,9 @@
+Select * from thinakaran left join thinamalar on thinakaran.name=thinamarlar.name;
+Select * from thinakaran right join thinamalar on thinakaran.name=thinamarlar.name;
+
+Select * from thinakaran left join thinamalar on thinakaran.name=thinamarlar.name where thinamalar.name is null;
+Select * from thinakaran right join thinamalar on thinakaran.name=thinamarlar.name where thinakaran.name is null;
+
+Select * from thinakaran left join thinamalar on thinakaran.name=thinamarlar.name where thinamalar.name is null union all Select * from thinakaran right join thinamalar on thinakaran.name=thinamarlar.name where thinakaran.name is null;
+
+Select * from thinakaran left join thinamalar on thinakaran.name=thinamarlar.name where thinamalar.name is null union all Select * from thinakaran right join thinamalar on thinakaran.name=thinamarlar.name where thinakaran.name is null union all select * from thinakaran inner join thinamalar on thinakaran.name=thinamalar.name;
