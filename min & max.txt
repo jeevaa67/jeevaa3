@@ -1,0 +1,6 @@
+Create table bank( acc_no into(10) primary key,name varchar(255),city var char(255),balance int(11));
+
+Select min(balance) from bank;
+Select max(balance) from bank;
+
+Select min(balance),max(balance) from bank;
