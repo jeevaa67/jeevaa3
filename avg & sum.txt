@@ -1,0 +1,6 @@
+Create table hospital(ID int(10),name var char(255),treatment varchar(255),city varchar(255);
+Alter table hospital add cost into(10);
+
+
+Select avg(cost) from hospital;
+Select sum(cost) from hospital;
